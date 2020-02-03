@@ -1,4 +1,29 @@
+.primera-parte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  clear: both; }
+  .primera-parte > div {
+    display: flex;
+    flex-direction: row; }
+
 h1 {
-  color: red; }
+  color: blue;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  font-weight: bold; }
+
+p {
+  font-size: 25px;
+  color: green; }
+
+img {
+  text-align: center;
+  background-color: white;
+  height: 40%;
+  width: 40%; }
+
+body {
+  background-color: black; }
 
 /*# sourceMappingURL=Noticia.css.map */
